@@ -1,0 +1,19 @@
+{
+  "name": "1babel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel JS -d babel",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.18.6",
+    "@babel/core": "^7.18.6"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.18.6"
+  }
+}
